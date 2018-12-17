@@ -1,0 +1,3 @@
+[submodule "theme/pelican-svbhack"]
+	path = theme/pelican-svbhack
+	url = https://github.com/gfidente/pelican-svbhack
