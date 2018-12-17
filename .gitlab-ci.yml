@@ -1,6 +1,9 @@
 image: python:3.7-alpine
 
 pages:
+  before_script:
+    - git submodule sync --recursive
+    - git submodule update --init --recursive
   script:
     - git submodule update --init --recursive
     - pip install -r requirements.txt
