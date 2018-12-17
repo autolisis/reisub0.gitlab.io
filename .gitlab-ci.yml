@@ -5,7 +5,7 @@ pages:
     - git submodule sync --recursive
     - git submodule update --init --recursive
   script:
-    - git submodule update --init --recursive
+    # - git submodule update --init --recursive
     - pip install -r requirements.txt
     - pelican -s publishconf.py
   artifacts:
