@@ -12,6 +12,10 @@ STATIC_PATHS = [
     # 'images',
     'extra',  # this
 ]
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['sitemap']
+
 EXTRA_PATH_METADATA = {
     # 'extra/custom.css': {'path': 'custom.css'},
     'extra/robots.txt': {
