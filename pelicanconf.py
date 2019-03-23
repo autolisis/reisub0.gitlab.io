@@ -13,6 +13,7 @@ STATIC_PATHS = [
     'extra',  # this
 ]
 
+SITEMAP = {'format': 'xml'}
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['sitemap']
 
